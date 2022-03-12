@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Capture%20d%E2%80%99%C3%A9cran%202022-03-12%20%C3%A0%2019.05.46.png.jpg)
+![](./images/screencapture-first-challenge-frontend-mentor-netlify-app-2022-03-12-19_58_21.png)
 
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://first-challenge-frontend-mentor.netlify.app/)
+- Live Site URL [here](https://first-challenge-frontend-mentor.netlify.app/)
 
 ## My process
 
