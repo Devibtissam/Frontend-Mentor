@@ -1,0 +1,132 @@
+
+:root{
+    --mainWhite: #ffff;
+    --pr-clr-cyan:  hsl(179, 62%, 43%);
+    --pr-clr-byellow: hsl(71, 73%, 54%);
+    --ntr-clr-lgray: hsl(204, 43%, 93%);
+    --ntr-clr-gblue: hsl(218, 22%, 67%);
+    --line-height: 1.75;
+    --boxShadow :  1px 1px 5px 0px hsl(218, 22%, 67%);
+
+}
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+    background-color: var(--ntr-clr-lgray);
+}
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+ul{
+    list-style: none;
+
+}
+button{
+    display: block;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sec-desc-grid,
+.grid-subtitle{
+    margin: 1em 0;
+
+}
+
+
+
+.grid-content{
+    max-width: 375px;
+    margin: 5em auto;
+    box-shadow: var(--boxShadow);
+
+}
+.grid-items{
+    background-color: var(--mainWhite);
+    padding: 1em 1.5em 1em;
+  
+    
+}
+
+.grid-price-title{
+    color: var(--pr-clr-cyan);
+    text-transform: capitalize;
+    margin-top: 1em;
+    
+}
+.grid-subtitle{
+    color: var(--pr-clr-byellow);
+     
+    
+}
+.grid-desc{
+    color: var(--ntr-clr-gblue);
+    line-height: var(--line-height);
+    margin-bottom: 1em;
+}
+
+.second-grid{
+    background-color: var(--pr-clr-cyan);
+    padding-top: .5em;
+}
+.sec-subtitle{
+    color: var(--mainWhite);
+}
+.grid-price{
+    color: var(--mainWhite);
+    font-size: 2.5rem;
+}
+.pr-mnth{
+    opacity: .5;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+.sec-desc-grid{
+    color: var(--mainWhite);
+}
+
+.btn{
+    padding: 1em;
+    background-color: var(--pr-clr-byellow);
+    color: var(--mainWhite);
+    font-size: 1.25rem;
+    margin: 1.5rem 0;
+    box-shadow: var(--boxShadow);
+   
+}
+.third-grid{
+    background-color: var(--pr-clr-cyan);
+    opacity: .8;
+   
+}
+.th-subtitle{
+    color: var(--mainWhite);
+}
+.why-lists li{
+    margin-bottom:.25em ;
+    color: var(--mainWhite);
+    opacity: .7;
+
+}
+
+/* ********* media for desktop ******** */
+@media (min-width:1000px){
+    .grid-content{
+        max-width: 700px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+}
+.first-grid{
+    grid-column: span 2;
+}
+}
