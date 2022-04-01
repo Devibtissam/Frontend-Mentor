@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Devibtissam/Frontend-Mentor/tree/master/huddle-landing-page-with-single-introductory-section-master)
-- Live Site URL: [Add live site URL here](https://huddle-ibtissam.netlify.app/)
+- Solution URL: [here](https://github.com/Devibtissam/Frontend-Mentor/tree/master/huddle-landing-page-with-single-introductory-section-master)
+- Live Site URL: [here](https://huddle-ibtissam.netlify.app/)
 
 ## My process
 
