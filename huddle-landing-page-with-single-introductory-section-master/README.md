@@ -26,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/screencapture-127-0-0-1-5500-index-html-2022-04-01-21_03_31.png)
+![](./images/screencapture-127-0-0-1-5500-index-html-2022-04-01-21_56_42.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://huddle-landingpage-ibtissam.netlify.app/)
+- Solution URL: [Add solution URL here](https://github.com/Devibtissam/Frontend-Mentor/tree/master/huddle-landing-page-with-single-introductory-section-master)
+- Live Site URL: [Add live site URL here](https://huddle-ibtissam.netlify.app/)
 
 ## My process
 

@@ -22,15 +22,15 @@ body{
     background-size: contain; 
     
 }
-
 header{
     max-width: 375px;
     padding: 2.5em;
-    text-align: center;
+    
     margin: 0 auto;
 }
 ul{
     list-style: none;
+    text-align: center;
 }
 
 img{
@@ -118,18 +118,21 @@ ul li i{
 
 
 @media (min-width:555px){
+    
     header{
         max-width: 500px;
     }
 }
 @media (min-width:750px){
+    
     header{
         max-width: 600px;
     }
 }
 
 @media (min-width: 950px){
-    header{
+    
+    main{
         max-width: 750px;
     }
 }
@@ -142,6 +145,7 @@ ul li i{
         background-size: cover;
         background-position: center;
     }
+    
     header{
         max-width: 1440px;
     }
