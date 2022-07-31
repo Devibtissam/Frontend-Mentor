@@ -10,7 +10,7 @@ This is a solution to the [Huddle landing page with curved sections challenge on
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-- [Author](#author)
+
 
 
 
