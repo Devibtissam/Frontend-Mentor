@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-!["./design/desktop-design.jpg"]
+![](./design/desktop-preview.jpg)
 
 
 ### Links
 
-- Live Site URL: [here](euphonious-crostata-1e5c76.netlify.app)
+- Live Site URL: [here](https://euphonious-crostata-1e5c76.netlify.app/)
 
 ## My process
 
