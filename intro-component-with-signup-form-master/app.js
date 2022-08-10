@@ -52,7 +52,6 @@ function hideErrorMsgs() {
 }
 
 btn.addEventListener('click', function(e){
-    e.preventDefault();
     hideErrorMsgs();
     const firstNameVal = firstName.value;
     const lastNameVal = lastName.value;
@@ -77,11 +76,6 @@ btn.addEventListener('click', function(e){
         displayMsgError(email, 'Looks like this is not an email')
 
     }
-
-    // if(checkIsNotEmpty(firstNameVal) && checkIsNotEmpty(lastNameVal) && checkIsNotEmpty(password) && checkIsNotEmpty(email) && checkValidEmail(email)){
-      
-    // }
-     
 })
 
 inputs.forEach(input =>  {

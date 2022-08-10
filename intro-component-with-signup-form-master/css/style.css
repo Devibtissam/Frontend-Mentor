@@ -33,7 +33,7 @@ body{
     font-size: var(--baseFont);
     color: var(--mainWhite);
     line-height: var(--line-height);
-    background:  var(--pr-redColor) url('../images/bg-intro-mobile.png') no-repeat fixed;
+    background:  var(--pr-redColor) url('../images/bg-intro-mobile.png') no-repeat;
 }
 /* general style */
 h1,
@@ -67,9 +67,6 @@ footer{
   right: 0;
   margin-right: 4rem;
   margin-top: 1.25rem;
-  /* display: none; */
-  
-
 }
 
 main{
@@ -100,7 +97,7 @@ aside button.freeTrialBtn{
 
 aside form {
     margin: 1.44rem 0rem;
-    padding: 2.37rem;
+    padding: 1.37rem;
     background-color: var(--mainWhite);
     position: relative;
 
