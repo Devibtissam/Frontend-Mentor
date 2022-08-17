@@ -103,6 +103,7 @@ main div picture.img-container img {
   -ms-border-radius: 10px 10px 0 0;
   -o-border-radius: 10px 10px 0 0;
   mix-blend-mode: multiply;
+  opacity: 75%;
 }
 
 main div article h1 {
