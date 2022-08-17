@@ -26,6 +26,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   font-family: var(--fontFamily-1);
   font-size: var(--baseFont);
@@ -33,6 +38,8 @@ body {
   background-color: var(--dark-blue);
   color: var(--white-1);
   min-height: 100vh;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
 }
 
 body::-webkit-scrollbar {
@@ -135,6 +142,7 @@ main section:nth-of-type(2) div > div span {
 
 @media screen and (min-width: 1000px) {
   main {
+    flex-direction: row;
     width: 77%;
     margin: 0 auto;
     max-width: 73.9333rem;
@@ -179,6 +187,11 @@ main section:nth-of-type(2) div > div span {
 }
 
 @media screen and (min-width: 1200px) {
+
+  main{
+    margin: 11rem 10rem 10rem 11rem;
+    padding: 0;
+  }
   section:nth-of-type(2) {
     max-width: 570px;
   }
