@@ -78,11 +78,11 @@ main {
   justify-content: center;
 }
 
-section {
+main > div {
   background-color: var(--dark-desaturated-blue);
 }
 
-main section picture.img-container {
+main div picture.img-container {
   position: relative;
   display: flex;
   width: 100%;
@@ -94,7 +94,7 @@ main section picture.img-container {
   -ms-border-radius: 10px 10px 0 0;
   -o-border-radius: 10px 10px 0 0;
 }
-main section picture.img-container img {
+main div picture.img-container img {
   position: relative;
   background-size: cover;
   border-radius: 10px 10px 0 0;
@@ -105,35 +105,35 @@ main section picture.img-container img {
   mix-blend-mode: multiply;
 }
 
-main section article h1 {
+main div article h1 {
   font-size: 1.5666rem;
   font-weight: 700;
   margin-bottom: 1.4rem;
 }
 
-main section article h1 span {
+main div article h1 span {
   color: var(--soft-violet);
 }
 
-main section article p {
+main div article p {
   color: var(--white-2);
   margin-bottom: 4.5rem;
 }
 
-main section:nth-of-type(2) {
+main div.header-content {
   padding: 1.8666rem 2.333rem 0.5333rem 2.333rem;
 }
 
-main section:nth-of-type(2) div.stats-items {
+main div.header-content div.stats-items {
   display: flex;
   flex-direction: column;
 }
 
-main section:nth-of-type(2) div > div {
+main div.header-content div > div {
   margin-bottom: 2.333rem;
 }
 
-main section:nth-of-type(2) div > div span {
+main div.header-content div > div span {
   font-size: 0.6rem;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -148,18 +148,19 @@ main section:nth-of-type(2) div > div span {
     max-width: 73.9333rem;
   }
   main,
-  main section:nth-of-type(2) div.stats-items {
+  main div.header-content div.stats-items {
     flex-direction: row;
   }
 
-  section {
+  div.header-content,
+  div.header-image {
     flex-basis: 50%;
   }
-  main section:nth-of-type(2) div.stats-items div {
+  main div.header-content div.stats-items div {
     flex: 1;
   }
 
-  main section:nth-of-type(1) {
+  main div.header-image {
     order: 1;
     border-radius: 0 10px 10px 0;
     -webkit-border-radius: 0 10px 10px 0;
@@ -167,7 +168,7 @@ main section:nth-of-type(2) div > div span {
     -ms-border-radius: 0 10px 10px 0;
     -o-border-radius: 0 10px 10px 0;
   }
-  main section:nth-of-type(2) {
+  main div.header-content {
     text-align: left;
     border-radius: 10px 0 0 10px;
     -webkit-border-radius: 10px 0 0 10px;
@@ -176,8 +177,8 @@ main section:nth-of-type(2) div > div span {
     -o-border-radius: 10px 0 0 10px;
   }
 
-  main section picture.img-container,
-  main section picture.img-container img {
+  main div picture.img-container,
+  main div picture.img-container img {
     border-radius: 0 10px 10px 0;
     -webkit-border-radius: 0 10px 10px 0;
     -moz-border-radius: 0 10px 10px 0;
@@ -187,29 +188,25 @@ main section:nth-of-type(2) div > div span {
 }
 
 @media screen and (min-width: 1200px) {
-
-  main{
+  main {
     margin: 11rem 10rem 10rem 11rem;
     padding: 0;
   }
-  section:nth-of-type(2) {
+  div.header-content {
     max-width: 570px;
   }
 
-  section:nth-of-type(1) {
+  main div.header-image {
     max-width: 540px;
   }
 
-  main section:nth-of-type(2) h1 {
+  main div.header-content article h1 {
     font-size: 2rem;
     margin-bottom: 1.75rem;
     line-height: 1.25;
   }
 
-  main section:nth-of-type(2) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  main div.header-content {
     padding: 4rem;
   }
 }
