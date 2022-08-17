@@ -1,10 +1,10 @@
-![](./design/screencapture-127-0-0-1-5500-index-html-2022-08-17-11_42_56.png)
+![](./design/screencapture-serene-bavarois-ae799a-netlify-app-2022-08-17-13_09_49.png)
 
 <h1 align= "center">Intro component with sign up form solution</h1>
 
 <div align="center">
   <h3>
-    <a href="https://zesty-kulfi-4e6a01.netlify.app/>
+    <a href="https://serene-bavarois-ae799a.netlify.app/">
       Demo
     </a>
     <span> | </span>
@@ -52,7 +52,7 @@ View the optimal layout depending on their device's screen size
 
 ### What I Learned
 
-It wasn't a hard challenge, however, I've struggled a lot to make the image overlay color looks like in the design given, I tried to make an overlay with position absolute and given it an opacity but it doesn't work, I searched and finally, I found that I can make it with <b>Mix-blend-mode</b> property which I didn't know about it before, again for some reason it doesn't give me the same darkness of the color exists in the design. 
+It wasn't a hard challenge, however, I've struggled a lot to make the image overlay color looks like in the design given, I tried to make an overlay with position absolute and given it an opacity but it doesn't work, I searched and finally, I found that I can make it with <b>Mix-blend-mode</b> property which I didn't know about it before, with an opacity of 75% to give me the same darkness of the color that exists in the design. 
 
 ### Useful resources
 
