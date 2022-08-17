@@ -4,7 +4,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://beautiful-bubblegum-fddc7a.netlify.app/">
+    <a href="https://zesty-kulfi-4e6a01.netlify.app/>
       Demo
     </a>
     <span> | </span>
