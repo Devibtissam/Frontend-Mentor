@@ -3,7 +3,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://mellifluous-starlight-3b821c.netlify.app/">
+    <a href="https://superlative-daifuku-c50dff.netlify.app/">
       Demo
     </a>
     <span> | </span>
