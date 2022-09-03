@@ -1,13 +1,13 @@
-import { advice, getRandomId } from './utils.js';
+import { advice } from './utils.js';
 
 const fetchAdvice = async () => {
-  try {
-    const response = await fetch(`${advice}/${getRandomId()}`);
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    return error;
-  }
+    const response = await fetch(advice, {cache: 'no-cache'});
+    if(response.ok){
+      const data = await response.json();
+      return data;
+    }else{
+        alert('HTTP-Error: ' + response.status);
+    } 
 };
 
 export { fetchAdvice };
