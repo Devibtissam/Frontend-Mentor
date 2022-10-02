@@ -20,24 +20,16 @@
     />
 
     <title>Frontend Mentor | Product preview card component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
-
     <link rel="stylesheet" href="/dist/main.css" />
   </head>
   <body>
     <main class="product">
       <picture class="product-image">
-        <img src="./images/image-product-mobile.jpg" alt="product image" />
+        <source
+          media="(min-width: 900px)"
+          srcset="./images/image-product-desktop.jpg" width="900px" height="900px"
+        />
+        <img src="./images/image-product-mobile.jpg" alt="product image" width="686px" height="280px" />
       </picture>
       <section class="product-details">
         <span>Perfume</span>
@@ -50,15 +42,10 @@
           <li>$149.99</li>
           <li><strike>$169.99</strike></li>
         </ul>
-        <button type="button"><img src="./images/icon-cart.svg" alt="img icon">Add to Cart</button>
+        <button type="button">
+          <img src="./images/icon-cart.svg" alt="img icon" width="15px" height="16px" />Add to Cart
+        </button>
       </section>
     </main>
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
   </body>
 </html>
