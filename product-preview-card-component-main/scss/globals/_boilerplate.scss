@@ -1,0 +1,46 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+a,
+a:active,
+a:hover{
+    text-decoration: none;
+    color: unset;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    // display: block;
+}
+span{
+    display: inline-block;
+}
+
+body{
+    background-color: var(--primary-cream);
+    font-size: 0.875rem;
+    font-weight: var(--fw-500);
+    font-family: var(--primary-ff);
+    line-height: 1.5;
+    display: grid;
+    place-items: center;
+
+}
+
+
+
