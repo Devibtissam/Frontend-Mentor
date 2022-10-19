@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./dist/style.css" />
+
+     <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+
+  </head>
+  <body>
+    <header class="banner container">
+      <section aria-labelledby="title" class="banner__title">
+        <h1 id="title">Social Media Dashboard</h1>
+        <p>Total Followers: 23,004</p>
+      </section>
+      <div class="banner__toggle">
+        <label for="toggle">
+          <button
+            type="button"
+            id="toggle"
+            role="switch"
+            aria-checked="true"
+            aria-label="theme toggle"
+          >
+            <span aria-hidden="true"></span>
+            <!-- <span aria-hidden="true">off</span> -->
+          </button>
+        </label>
+        <p>Dark Mode</p>
+      </div>
+    </header>
+    <main class="container">
+      <section class="cards cards--container" aria-label="social media followers">
+        <article class=" cards__card cards__card--facebook" aria-label="facebook followers">
+          <p class="cards__card__icon cards__card__icon--center">
+            <img src="./images/icon-facebook.svg" alt="Facebook icon" />
+            @nathanf
+          </p>
+          <div class="cards__card__count cards__card__count--big">1987</div>
+          <p class="cards__card__label">Followers</p>
+          <p class="cards__card--up"><img src="./images/icon-up.svg" alt="" /> 12 Today</p>
+        </article>
+
+        <article class="cards__card cards__card--twitter" aria-label="twitter followers">
+          <p class="cards__card__icon cards__card__icon--center">
+            <img src="./images/icon-twitter.svg" alt="Facebook icon" />
+            @nathanf
+          </p>
+          <div class="cards__card__count cards__card__count--big">1044</div>
+          <p class="cards__card__label">Followers</p>
+          <p class="cards__card--up"><img src="./images/icon-up.svg" alt="" /> 99 Today</p>
+        </article>
+
+        <article class="cards__card cards__card--instagram"  aria-label="instagram followers">
+          <p class="cards__card__icon cards__card__icon--center">
+            <img src="./images/icon-instagram.svg" alt="Facebook icon" />
+            @realnathanf
+          </p>
+          <div class="cards__card__count cards__card__count--big">11k</div>
+          <p class="cards__card__label">Followers</p>
+          <p class="cards__card--up"><img src="./images/icon-up.svg" alt="" /> 1099 Today</p>
+        </article>
+
+        <article class="cards__card cards__card--youtube"  aria-label="youtube followers">
+          <p class="cards__card__icon cards__card__icon--center">
+            <img src="./images/icon-youtube.svg" alt="Facebook icon" />
+            Nathan F.
+          </p>
+          <div class="cards__card__count cards__card__count--big">8239</div>
+          <p class="cards__card__label">Subscribers</p>
+          <p class="cards__card--down"><img src="./images/icon-down.svg" alt="" /> 144 Today</p>
+        </article>
+      </section>
+     
+      <section class="cards"  aria-label="social media Overview">
+          <h2>Overview - Today</h2>
+          <div class="cards--container">
+               <article class="cards__card cards--overview">
+          <header>
+            <div class="cards__card__icon">Page Views</div>
+            <img src="./images/icon-facebook.svg" alt="">
+          
+          </header>
+          <section>
+            <div class="cards__card__count cards__card__count--small">87</div>
+            <p class="cards__card--up"><img src="./images/icon-up.svg" alt="">3%</p>
+          </section>
+        </article>
+
+          <article class="cards__card cards--overview">
+          <header>
+            <div class="cards__card__icon"> Likes  </div>
+            <img src="./images/icon-facebook.svg" alt="">
+           
+          </header>
+          <section>
+            <div class="cards__card__count cards__card__count--small">52</div>
+            <p class="cards__card--down"><img src="./images/icon-down.svg" alt="">2%</p>
+          </section>
+        </article>
+
+           <article class="cards__card cards--overview">
+          <header>
+            <div class="cards__card__icon"> Likes</div>
+            <img src="./images/icon-instagram.svg" alt="">
+        
+          </header>
+          <section>
+            <div class="cards__card__count cards__card__count--small">5462</div>
+            <p class="cards__card--up"><img src="./images/icon-up.svg" alt="">2257%</p>
+          </section>
+        </article>
+
+         <article class="cards__card cards--overview">
+          <header>
+            <div class="cards__card__icon">  Profile Views  </div>
+            <img src="./images/icon-twitter.svg" alt="">
+          
+          </header>
+          <section>
+            <div class="cards__card__count cards__card__count--small">52k</div>
+            <p class="cards__card--up"><img src="./images/icon-up.svg" alt="">1375%</p>
+          </section>
+        </article>
+
+             <article class="cards__card cards--overview">
+          <header>
+            <div class="cards__card__icon">Retweets</div>
+            <img src="./images/icon-instagram.svg" alt="">
+          </header>
+          <section>
+            <div class="cards__card__count cards__card__count--small">117</div>
+            <p class="cards__card--up"><img src="./images/icon-up.svg" alt="">303%</p>
+          </section>
+        </article>
+
+        <article class="cards__card cards--overview">
+          <header>
+            <div class="cards__card__icon">Likes</div>
+            <img src="./images/icon-instagram.svg" alt="">  
+          </header>
+          <section>
+            <div class="cards__card__count cards__card__count--small">507</div>
+            <p class="cards__card--up"><img src="./images/icon-up.svg" alt="">553%</p>
+          </section>
+        </article>
+
+        <article class="cards__card cards--overview">
+          <header>
+            <div class="cards__card__icon">Likes</div>
+            <img src="./images/icon-youtube.svg" alt="">  
+          </header>
+          <section>
+            <div class="cards__card__count cards__card__count--small"> 107</div>
+            <p class="cards__card--down"><img src="./images/icon-down.svg" alt="">19%</p>
+          </section>
+        </article>
+
+        
+        <article class="cards__card cards--overview">
+          <header>
+            <div class="cards__card__icon">Total Views</div>
+            <img src="./images/icon-youtube.svg" alt="">
+         
+          </header>
+          <section>
+            <div class="cards__card__count cards__card__count--small">1407</div>
+            <p class="cards__card--down"><img src="./images/icon-down.svg" alt="">12%</p>
+          </section>
+        </article>
+
+      </div>
+
+          </section>
+          
+    </main>
+ <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ibtissam</a>.
+ </footer>
+    <script src="./app/js/script.js"></script>
+  </body>
+</html>

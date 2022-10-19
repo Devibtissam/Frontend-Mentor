@@ -1,0 +1,101 @@
+.cards {
+  &__card {
+    background-color: var(--bg-card);
+    text-align: center;
+    padding-block: 1rem;
+    margin-block: 1.5rem;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    &:hover{
+        background-color: var(--hover-card);
+        transition: all 0.25s ease-in;
+    }
+    &__icon { 
+      color: var(--text-color2);
+      font-weight: var(--fw-700);
+      font-size: 0.85rem;
+       &--center{
+       display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.55rem;
+
+    }
+    }
+   
+    &__count {
+      font-weight: var(--fw-700);
+      margin: 0.25rem;
+      &--big{
+           font-size: 3.5rem;
+      }
+      &--small{
+           font-size: 1.5rem;
+      }
+
+    }
+
+    &__label {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--text-color3);
+    }
+    &--up {
+      color: var(--limegreen);
+      font-weight: var(--fw-700);
+      font-size: 0.75rem;
+    }
+    &--down {
+      color: var(--brightred);
+      font-weight: var(--fw-700);
+      font-size: 0.75rem;
+    }
+    &--facebook {
+      border-top: 5px solid var(--facebook);
+    }
+    &--twitter {
+      border-top: 5px solid var(--twitter);
+    }
+    &--youtube {
+      border-top: 5px solid var(--youtube);
+    }
+    &--instagram {
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        background: linear-gradient(
+         to left,
+          var(--instagram-end),
+          var(--instagram-middle) ,
+          var(--instagram-start)
+        );
+        height: 0.3125rem;
+        border-radius: 5px 5px 0 0;
+      }
+    }
+  }
+  &--overview{
+    text-align: unset;
+    padding: 1rem 2rem;
+    header{
+        margin-bottom: 1rem;
+    }
+    header,section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+  }
+  h2{
+    font-size: 1.25rem;
+    font-weight: var(--fw-700);
+    color: var(--text-color2);
+  }
+
+}

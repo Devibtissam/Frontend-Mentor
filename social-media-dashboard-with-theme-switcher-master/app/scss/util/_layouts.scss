@@ -1,0 +1,63 @@
+@use './breakpoints' as *;
+.container{
+    width: 95%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.banner{
+    &__toggle{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        label{
+            order: 1;
+        }
+    }
+}
+
+
+    // background-color: red;
+    @include breakpoint(medium){
+    .cards--container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    .cards{
+        &__card{
+            flex-basis: 49%;
+            margin-block: 0.5rem;
+        }
+    }
+   
+    }
+
+    @include breakpoint(large){
+        .banner{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    &__toggle{
+        gap: 1rem;
+       
+    }
+}
+        .container{
+            max-width: 90em;
+        }
+        .cards--container{
+            gap: 2%;
+        }
+        .cards{
+            &__card{
+                flex-basis: 23.5%;
+            }
+        }
+    }
+    
+
+
+
+
+
