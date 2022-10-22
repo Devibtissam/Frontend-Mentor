@@ -2,11 +2,14 @@
     &__title{
         h1{
            font-weight: var(--fw-700);
-           font-size: 1.5rem;
+           font-size: 1.75rem;
+           margin-bottom: 0.25rem;
         }
         p{
             color: var(--text-color2);
             font-weight: var(--fw-700);
+            // margin: 0;
+            // padding: 0;
         }
     }
     &__toggle{

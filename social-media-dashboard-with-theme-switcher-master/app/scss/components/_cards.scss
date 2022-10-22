@@ -83,19 +83,20 @@
   &--overview{
     text-align: unset;
     padding: 1rem 2rem;
-    header{
+    & > :first-child{
         margin-bottom: 1rem;
     }
-    header,section{
+    & > div{
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
   }
   h2{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: var(--fw-700);
-    color: var(--text-color2);
+    color: var(--text-color1);
+    padding-block: .5rem;
   }
 
 }
