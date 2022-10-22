@@ -3,7 +3,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://comfy-melba-18ebbc.netlify.app/">
+    <a href="https://shiny-salamander-648793.netlify.app/">
       Demo
     </a>
     <span> | </span>
